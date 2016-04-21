@@ -499,6 +499,9 @@
     <Content Include="umbraco\Webservices\TreeDataService.ashx" />
     <Content Include="umbraco\Webservices\UltimatePickerAutoCompleteHandler.ashx" />
     <Content Include="umbraco\Xslt\Web.config" />
+    <Content Include="Views\Home.cshtml" />
+    <Content Include="Views\Master.cshtml" />
+    <Content Include="Views\tekstPage.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -742,11 +745,14 @@
     <Content Include="Config\Lang\zh-CN.user.xml" />
     <Content Include="Config\splashes\booting.aspx" />
     <Content Include="Config\splashes\noNodes.aspx" />
+    <Content Include="css\navBar.css" />
+    <Content Include="css\pageStyles.css" />
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="obj\Debug\Umbraco.7.3.1.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\Umbraco.7.3.1.dll" />
     <Content Include="obj\Debug\Umbraco.7.3.1.pdb" />
+    <Content Include="scripts\NavBar.js" />
     <Content Include="umbraco\Actions\delete.aspx" />
     <Content Include="umbraco\Actions\editContent.aspx" />
     <Content Include="umbraco\Actions\preview.aspx" />
