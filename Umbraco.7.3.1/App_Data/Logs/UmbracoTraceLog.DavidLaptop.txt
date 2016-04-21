@@ -1231,3 +1231,16 @@ _shutDownStack=   ved System.Environment.GetStackTrace(Exception e, Boolean need
    ved System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
    ved System.Threading.ThreadPoolWorkQueue.Dispatch()
    ved System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2016-04-21 18:10:18,757 [P12892/D8/T85] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: e-david@live.dk, IP Address: ::1
+ 2016-04-21 18:10:21,854 [P12892/D8/T99] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-04-21 18:10:21,854 [P12892/D8/T99] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-04-21 18:10:21,858 [P12892/D8/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-04-21 18:10:21,858 [P12892/D8/T99] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-04-21 18:10:21,858 [P12892/D8/T99] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-04-21 18:10:21,858 [P12892/D8/T99] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-04-21 18:10:21,858 [P12892/D8/T99] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-04-21 18:10:21,858 [P12892/D8/T99] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-04-21 18:10:21,858 [P12892/D8/T99] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-04-21 18:10:21,858 [P12892/D8/T72] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-04-21 18:10:21,858 [P12892/D8/T96] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-04-21 18:10:21,858 [P12892/D8/T77] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
