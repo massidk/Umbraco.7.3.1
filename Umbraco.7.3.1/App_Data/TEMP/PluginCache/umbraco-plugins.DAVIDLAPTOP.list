@@ -6,6 +6,8 @@
     <add type="Umbraco.Core.Strategies.RelateOnCopyHandler, Umbraco.Core, Version=1.0.5780.28249, Culture=neutral, PublicKeyToken=null" />
     <add type="Umbraco.Core.Strategies.RelateOnTrashHandler, Umbraco.Core, Version=1.0.5780.28249, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.providers.members.MembershipEventHandler, umbraco.providers, Version=1.0.5780.28254, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.BusinessLogic.ApplicationRegistrar, businesslogic, Version=1.0.5780.28252, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.BusinessLogic.ApplicationTreeRegistrar, businesslogic, Version=1.0.5780.28252, Culture=neutral, PublicKeyToken=null" />
     <add type="Umbraco.Web.BatchedDatabaseServerMessengerStartup, umbraco, Version=1.0.5780.28255, Culture=neutral, PublicKeyToken=null" />
     <add type="Umbraco.Web.Models.Mapping.RelationModelMapper, umbraco, Version=1.0.5780.28255, Culture=neutral, PublicKeyToken=null" />
     <add type="Umbraco.Web.Cache.CacheRefresherEventHandler, umbraco, Version=1.0.5780.28255, Culture=neutral, PublicKeyToken=null" />
@@ -41,8 +43,6 @@
     <add type="umbraco.presentation.nodeFactory.UmbracoSiteMapProviderAccessUpdate, umbraco, Version=1.0.5780.28255, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.presentation.EnsureSystemPathsApplicationStartupHandler, umbraco, Version=1.0.5780.28255, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.presentation.umbraco.Search.ExamineEvents, umbraco, Version=1.0.5780.28255, Culture=neutral, PublicKeyToken=null" />
-    <add type="umbraco.BusinessLogic.ApplicationRegistrar, businesslogic, Version=1.0.5780.28252, Culture=neutral, PublicKeyToken=null" />
-    <add type="umbraco.BusinessLogic.ApplicationTreeRegistrar, businesslogic, Version=1.0.5780.28252, Culture=neutral, PublicKeyToken=null" />
   </baseType>
   <baseType type="Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter" resolutionType="FindAllTypes" />
   <baseType type="Umbraco.Core.PropertyEditors.IPropertyValueConverter" resolutionType="FindAllTypes">
