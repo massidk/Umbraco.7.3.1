@@ -502,6 +502,15 @@
     <Content Include="Views\Home.cshtml" />
     <Content Include="Views\Master.cshtml" />
     <Content Include="Views\tekstPage.cshtml" />
+    <Content Include="fonts\AMERD_.TTF" />
+    <Content Include="fonts\ANDERSON FOUR FEATHER FALLS.TTF" />
+    <Content Include="fonts\ANDERSON THUNDERBIRDS ARE GO!.TTF" />
+    <Content Include="fonts\BLEEDING COWBOYS.TTF" />
+    <Content Include="fonts\CHEAPSTE.OTF" />
+    <Content Include="fonts\COLONNA.TTF" />
+    <Content Include="fonts\GiddyupStd.otf" />
+    <Content Include="fonts\MesquiteStd.otf" />
+    <Content Include="fonts\RosewoodStd-Regular.otf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

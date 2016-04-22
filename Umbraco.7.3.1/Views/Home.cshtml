@@ -1,11 +1,15 @@
-﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+﻿@using System.Drawing
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
     Layout = "Master.cshtml";
 }
-<div class="logo">
+<div class="logo" align="center">
     <img src="@CurrentPage.logo" alt="@CurrentPage.siteName" />
 </div>
 <br/>
+<div class="headline" align="center">
+    @CurrentPage.headline
+</div>
 <div class="page">
     @CurrentPage.pageBody
 </div>

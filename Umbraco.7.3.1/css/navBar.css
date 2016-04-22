@@ -29,8 +29,8 @@
 }
 #cssmenu {
   width: auto;
-  font-family:Serif ;
-  font-weight:bold;
+  /*font-family:Serif ;
+  font-weight:bold;*/
   line-height: 1;
 }
 #cssmenu > ul {
@@ -43,7 +43,7 @@
   perspective: 1000;
 }
 #cssmenu.align-center > ul {
-  font-size: 0;
+  /*font-size: 0;*/
   text-align: center;
 }
 #cssmenu.align-center > ul > li {
@@ -55,7 +55,7 @@
 }
 #cssmenu > ul > li > a {
   padding: 16px 20px;
-  font-size: 14px;
+  /*font-size: 14px;*/
   color: #ffffff;
   letter-spacing: 1px;
   text-transform: uppercase;

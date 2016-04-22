@@ -11,9 +11,60 @@
     margin: auto;
     width: 20%;
 }
+.headline {
+    font-family: 'RosewoodStd-Regular';
+    font-size: xx-large;
+}
+@font-face {
+    font-family: 'RosewoodStd-Regular';
+    src: url('../fonts/RosewoodStd-Regular.otf') format('opentype');
+}
 .page {
     font-family: sans-serif;
     font-size: large;
-    padding-left: 95px;
-    padding-right: 95px;
+}
+/*navBar Buttons Fonts styles*/
+.button1 {
+    font-family: 'ANDERSON FOUR FEATHER FALLS';
+    font-size: x-large;
+}
+@font-face {
+    font-family: 'ANDERSON FOUR FEATHER FALLS';
+    src: url('../fonts/ANDERSON FOUR FEATHER FALLS.TTF') format('truetype');
+}
+.button2 {
+    font-family: 'MesquiteStd';
+    font-size: x-large;
+}
+@font-face {
+    font-family: 'MesquiteStd';
+    src: url('../fonts/MesquiteStd.otf') format('opentype');
+}
+.button3 {
+    font-family: 'CHEAPSTE';
+    font-size: x-large;
+}
+@font-face {
+    font-family: 'CHEAPSTE';
+    src: url('../fonts/CHEAPSTE.OTF') format('opentype');
+}
+.button4 {
+    font-family: 'BLEEDING COWBOYS';
+    font-size: x-large;
+}
+@font-face {
+    font-family: 'BLEEDING COWBOYS';
+    src: url('../fonts/BLEEDING COWBOYS.TTF') format('truetype');
+}
+.button5 {
+    
+}
+.button6 {
+    
+}
+.button7 {
+    
+}
+.button8 {
+    
 }
